@@ -14,6 +14,10 @@ const routes: Routes = [
   { path: 'ping', component: PingComponent}
 ];
 
+routes.push({ path: 'broken-ping', component: PingComponent });
+
+console.dir(routes);
+
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],
   exports: [ RouterModule ]
