@@ -19,6 +19,7 @@ import { MessagesComponent }    from './messages/messages.component';
 
 import { PLATFORM_ID, APP_ID, Inject } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { PingComponent } from './ping/ping.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { isPlatformBrowser } from '@angular/common';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    PingComponent
   ],
   providers: [ HeroService, MessageService ],
   bootstrap: [ AppComponent ]

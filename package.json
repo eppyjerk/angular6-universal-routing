@@ -15,6 +15,7 @@
     "extract": "ng xi18n --output-path=locale",
     "build:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
     "serve:ssr": "node dist/server.js",
+    "start:ssr": "npm run build:ssr && npm run serve:ssr",
     "build:client-and-server-bundles": "ng build --prod && ng run angular.io-example:server",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors"
   },
