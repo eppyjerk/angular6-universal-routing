@@ -4,6 +4,8 @@ This repo is an example of a server side rendering routing issue.
 
 This is a copy of the "finished sample code" from the angular.io guide: https://angular.io/guide/universal
 
+Test.
+
 # Description of error
 
 In the app-routing.module.ts, when a route is added in the initialization of the routes variable, the route works. But if another route is pushed onto the array, it does _not_ work. 
